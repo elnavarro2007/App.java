@@ -16,4 +16,26 @@ public class Titles {
         }
         System.out.println("");
     }
+    public static void writeTitle2(String c) {
+
+        System.out.println("");
+
+        for(int i=0;i<11;i++){
+            System.out.printf("*");
+        }
+        System.out.println("");
+        for(int i=0;i<3;i++){
+            System.out.printf("*");
+        }
+
+        System.out.printf(" "+c+ " ");
+        for(int i=0;i<3;i++){
+            System.out.printf("*");
+        }
+        System.out.println("");
+        for(int i=0;i<11;i++){
+            System.out.printf("*");
+        }
+        System.out.println("");
+    }
 }

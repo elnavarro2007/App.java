@@ -23,7 +23,7 @@ public class App {
                 System.out.printf("Titulo: ");
                 String titulo = teclado.nextLine();
                 titulo = teclado.nextLine();
-                Titles.writeTitle(titulo);
+                Titles.writeTitle2(titulo);
             } else if (numero == 0) {
                 teclado.close();
             }
