@@ -1,16 +1,18 @@
+import java.util.Scanner;
+
 public class Figures {
 
     public static char Asterisk = '*';
 
-    public static void writeSquare(int a) {
+    public static void writeSquare(int a, String c) {
 
         for(int i=0;i<a;i++){
 
             for(int j=0;j<a;j++){
-                System.out.printf("*");
+                System.out.printf(c);
             }
-
-            System.out.println("");
+            System.out.printf("");
         }
     }
 }
+
