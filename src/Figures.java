@@ -25,5 +25,16 @@ public class Figures {
             System.out.println(" ");
         }
     }
+    public static void writeSquarePyramid(int a, char c) {
+
+        for(int i=0;i<a;i--){
+
+            for(int j=0;j<a;j++){
+                System.out.print('*');
+            }
+            System.out.println(" ");
+            System.out.println("este bucle hara una piramide y se ira empequeñeciendo");
+        }
+    }
 }
 

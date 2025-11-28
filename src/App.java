@@ -18,7 +18,7 @@ public class App {
             if (numero == 1) {
                 System.out.printf("Lado del cuadrado: ");
                 int lado = teclado.nextInt();
-                Figures.writeSquare2(lado, "F");
+                Figures.writeSquarePyramid(lado, 'f');
             } else if (numero == 2) {
                 System.out.printf("Titulo: ");
                 String titulo = teclado.nextLine();
