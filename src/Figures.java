@@ -15,14 +15,14 @@ public class Figures {
         }
     }
 
-    public static void writeSquare2(int a, String c) {
+    public static void writeSquare2(int a, char c) {
 
         for(int i=0;i<a;i++){
 
             for(int j=0;j<a;j++){
-                System.out.printf(c);
+                System.out.print(c);
             }
-            System.out.printf("");
+            System.out.println(" ");
         }
     }
 }
