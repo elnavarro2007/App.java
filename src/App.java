@@ -11,7 +11,9 @@ public class App {
             System.out.println("Choose an option:\n" +
                     "  1. Square\n" +
                     "  2. Title\n" +
-                    "  0. Quit\n");
+                    "  0. Quit\n"+
+                    "3 linea");
+
 
             int numero = teclado.nextInt();
 
@@ -26,7 +28,19 @@ public class App {
                 Titles.writeTitle2(titulo);
             } else if (numero == 0) {
                 teclado.close();
+            }else if (numero ==3) {
+               Writeheader(numero);
             }
         }
+
+    }
+    public static void Writeheader(int a) {
+      Scanner sc = new Scanner(System.in);
+        for (int i=0;i<=80;a++){
+            System.out.printf("<");
+
+
+        }
+        System.out.println();
     }
 }
