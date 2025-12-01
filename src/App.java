@@ -1,7 +1,7 @@
 import java.util.Scanner;/**/
 
 public class App {
-  public static  void main (String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("Write console tests");
 
@@ -11,7 +11,8 @@ public class App {
             System.out.println("Choose an option:\n" +
                     "  1. Square\n" +
                     "  2. Title\n" +
-                    "  0. Quit\n");
+                    "  0. Quit\n" +
+                    "3 rectangulo\n");
 
             int numero = teclado.nextInt();
 
@@ -26,7 +27,15 @@ public class App {
                 Titles.writeTitle(titulo);
             } else if (numero == 0) {
                 teclado.close();
+            } else if (numero == 3) {
+                System.out.print("Introduce altura: ");
+                int b = teclado.nextInt();
+                System.out.print("Introduce un caracter: ");
+                String palabra = teclado.next();
+                char palabraChar = palabra.charAt(0);
+                Figures.Writerectangle(b, palabraChar);
             }
         }
     }
+
 }

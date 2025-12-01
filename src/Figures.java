@@ -6,9 +6,9 @@ public class Figures {
 
     public static void writeSquare(int a) {
 
-        for(int i=0;i<a;i++){
+        for (int i = 0; i < a; i++) {
 
-            for(int j=0;j<a;j++){
+            for (int j = 0; j < a; j++) {
                 System.out.printf("*");
             }
             System.out.print("");
@@ -17,24 +17,41 @@ public class Figures {
 
     public static void writeSquare2(int a, char c) {
 
-        for(int i=0;i<a;i++){
+        for (int i = 0; i < a; i++) {
 
-            for(int j=0;j<a;j++){
+            for (int j = 0; j < a; j++) {
                 System.out.print('*');
             }
             System.out.println(" ");
         }
     }
+
     public static void writeSquarePyramid(int a, char c) {
 
-        for(int i=0;i<a;i--){
+        for (int i = 0; i < a; i--) {
 
-            for(int j=0;j<a;j++){
+            for (int j = 0; j < a; j++) {
                 System.out.print('*');
             }
             System.out.println(" ");
             System.out.println("este bucle hara una piramide y se ira empequeñeciendo");
         }
+
+    }
+
+    public static void Writerectangle(int a, char c) {
+
+
+        for (int j = 0; j < a; j++) {
+            for (int i = 0; i < a; i++) {
+                System.out.print(c);
+
+
+            }
+            System.out.println();
+        }
+        System.out.println();
+
     }
 }
 
