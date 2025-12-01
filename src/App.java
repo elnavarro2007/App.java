@@ -29,17 +29,17 @@ public class App {
             } else if (numero == 0) {
                 teclado.close();
             }else if (numero ==3) {
-               Writeheader(numero);
+               WriteTrailer(numero);
             }
         }
 
     }
-    public static void Writeheader(int a) {
+    public static void WriteTrailer(int a) {
         Scanner sc = new Scanner(System.in);
         System.out.println("introduce el parametro");
         a=sc.nextInt();
         for (int i=0;i<a;i++){
-            System.out.printf("<");
+            System.out.printf(">");
 
 
         }
