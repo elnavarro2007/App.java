@@ -36,9 +36,8 @@ public class App {
     }
     public static void WriteTrailer(int a) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("introduce el parametro");
-        a=sc.nextInt();
-        for (int i=0;i<a;i++){
+;
+        for (int i=0;i<80;i++){
             System.out.printf(">");
 
 
